@@ -12,16 +12,20 @@ nav {
     display: flex;
 }
 
-.btn-1 {
+/* all button design   */
+.uni-btn {
     background-color: #4E47FF;
-    margin: 51.5px 150px 51.5px 150px;
-    height: 48px;
-    width: 132px;
     border-radius: 10px;
     color: white;
     font-size: 16px;
     border: none;
+    padding: 12px 36px 12px 36px;
+}
 
+.btn-1 {
+    margin: 51.5px 150px 51.5px 150px;
+    height: 48px;
+    width: 132px;
 }
 
 .raleway-font {
@@ -57,23 +61,104 @@ nav {
 }
 
 .cnt-1 {
-    font-size: 65px;  
+    font-size: 65px;
 }
 
-.btn-2{
-    background-color:#4E47FF;
-    color: white;
-    border: none;
-    font-size: 16px;
-    width: 174px;height: 48px;
-    border-radius: 10px;
+.btn-2 {
+    width: 174px;
+    height: 48px;
     margin-top: 37px;
 }
 
-.home-content{
+.home-content {
     margin: 309px 267.5px 162px 267.5px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
+.main-section-1 {
+    background-color: azure;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.action-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cnt-2 {
+    margin: 450px 782px 168.5px 141px;
+}
+
+.txt-1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.txt-2 {
+    font-size: 22px;
+    font-weight: normal;
+    color: darkgray;
+}
+
+.btn-3 {
+    width: 229px;
+    height: 48px;
+    margin-top: 23px;
+}
+
+.img-1 {
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+    margin-right: 159px;
+    margin-top: 380px;
+}
+
+.joined-page {}
+
+.sectn-1 {
+    border-radius: 24px;
+    background-color: #4E47FF1A;
+    max-width: 1140px;
+    height: 306px;
+    margin: 0 auto;
+    padding: 50px 80px 50px 80px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cnt-3 {
+    justify-content: center;
+    align-content: center;
+    margin: auto auto;
+    text-align: center;
+    font-size: 38px;
+    color: #252432;
+}
+
+.cnt-4 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 40px 142px 50px 142px ;
+}
+.txt-3{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.txt-4{
+font-weight: normal;
+color: #0000005A;
+font-size: 20px;
+}
