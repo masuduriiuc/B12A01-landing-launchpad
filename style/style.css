@@ -12,7 +12,7 @@ nav {
     display: flex;
 }
 
-/* all button design   */
+/* all button design */
 .uni-btn {
     background-color: #4E47FF;
     border-radius: 10px;
@@ -22,12 +22,14 @@ nav {
     padding: 12px 36px 12px 36px;
 }
 
+/* sign-up button in navbar */
 .btn-1 {
     margin: 51.5px 150px 51.5px 150px;
     height: 48px;
     width: 132px;
 }
 
+/* font 1 */
 .raleway-font {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -35,14 +37,17 @@ nav {
     font-style: normal;
 }
 
+/* logo */
 .name1 {
     margin: 50px 1041px 50px 150px;
 }
 
+/* for color M latter */
 .text-primary {
     color: #4E47FF;
 }
 
+/* font 2 */
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -50,6 +55,7 @@ nav {
     font-weight: 800;
     font-size: 34px;
 }
+
 
 .header {
     background-image: url('../Assets/Hero-bg.png');
@@ -60,16 +66,19 @@ nav {
     width: 100%;
 }
 
+/* page 1 next-gen  */
 .cnt-1 {
     font-size: 65px;
 }
 
+/* page 1 button  */
 .btn-2 {
     width: 174px;
     height: 48px;
     margin-top: 37px;
 }
 
+/* div button and content pg 1 */
 .home-content {
     margin: 309px 267.5px 162px 267.5px;
     text-align: center;
@@ -77,24 +86,28 @@ nav {
     align-items: center;
 }
 
+/* body page bg */
 .main-section-1 {
     background-color: azure;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+    background-repeat: repeat-y;
+    height: 340vh;
     width: 100%;
 
 
 }
 
+/* See It in Action */
 .action-page {
+
     display: flex;
     justify-content: space-between;
 }
 
+/* page 2 left btn and content  start*/
 .cnt-2 {
-    margin: 450px 782px 168.5px 141px;
+    margin: 250px 782px 168.5px 150px;
 }
 
 .txt-1 {
@@ -102,7 +115,7 @@ nav {
     font-weight: bold;
 }
 
-.txt-2 {
+.actin .txt-2 {
     font-size: 22px;
     font-weight: normal;
     color: darkgray;
@@ -114,16 +127,23 @@ nav {
     margin-top: 23px;
 }
 
+/* pg 2 left cont end */
+
+/* pg 2 img */
 .img-1 {
     height: 328px;
     width: 403px;
     border-radius: 48px;
-    margin-right: 159px;
-    margin-top: 380px;
+    margin-right: 165px;
+    margin-top: 180px;
 }
 
-.joined-page {}
+/* pg 3 start */
+.joined-page {
+    margin-top: 220px;
+}
 
+/* card designs */
 .sectn-1 {
     border-radius: 24px;
     background-color: #4E47FF1A;
@@ -134,8 +154,6 @@ nav {
     align-content: center;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .cnt-3 {
@@ -143,22 +161,140 @@ nav {
     align-content: center;
     margin: auto auto;
     text-align: center;
-    font-size: 38px;
+    font-size: 48px;
     color: #252432;
 }
 
+/* card all cont  */
 .cnt-4 {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin: 40px 142px 50px 142px ;
+    margin: 40px 142px 50px 142px;
 }
-.txt-3{
+
+.txt-3 {
     font-size: 80px;
     color: #4E47FF;
 }
-.txt-4{
-font-weight: normal;
-color: #0000005A;
-font-size: 20px;
+
+.txt-4 {
+    font-weight: normal;
+    color: #0000005A;
+    font-size: 20px;
+}
+
+.riview-pg {
+    margin-top: 220px;
+}
+
+.cnt-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-5 {
+    display: flex;
+}
+
+.img-2 {
+    border-radius: 50%;
+}
+
+.txt-6 {
+    font-family: heading;
+}
+
+.txt-7 {}
+
+.riv-1 {
+    margin: 60px 0px 0px 50px;
+    background-color: #B0C4DE;
+    padding: 26px;
+    border-radius: 10%;
+}
+
+< !-- ready to focus page -->. {
+    background-color: #B0C4DE;
+}
+
+.red-1 {
+    margin-top: 200px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.red-2 {
+    display: block;
+    height: 364.77px;
+    width: 840px;
+    margin: 20px auto 20px auto;
+    border-radius: 48px;
+}
+
+.txt-8 {
+    font-size: 50px;
+}
+
+.txt-9 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.btn-4 {
+    margin-top: 20px;
+    width: 195px;
+    height: 48px;
+}
+
+.get {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-11 {
+    font-size: 97px;
+}
+
+/* footer start  */
+footer {
+    background-color: antiquewhite;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+}
+
+.name2 {
+    font-size: 100px;
+}
+
+.txt-10 {
+    margin-top: 8px;
+    color: #8987a1;
+    font-size: 24px;
+}
+
+
+
+
+
+.btn-5 {
+    margin-top: 20px;
+    color: #8987a1;
+    text-decoration: none;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.fot-btn {
+    margin-left: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8987a1;
 }
