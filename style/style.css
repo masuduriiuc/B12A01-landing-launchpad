@@ -258,6 +258,7 @@ nav {
 .txt-11 {
     margin-left: 180px;
     font-size: 97px;
+    margin-top: 135px;
 }
 .get2{
     padding: 15px;
@@ -320,4 +321,7 @@ footer a {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-    
+.btn-7{
+    display: block;
+    width: 180px;
+}
