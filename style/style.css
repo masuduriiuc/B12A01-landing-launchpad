@@ -252,11 +252,16 @@ nav {
 .get {
     margin-top: 200px;
     display: flex;
-    justify-content: space-between;
+    gap: 700px;
 }
 
 .txt-11 {
+    margin-left: 180px;
     font-size: 97px;
+}
+.get2{
+    padding: 15px;
+    
 }
 
 /* footer start  */
@@ -298,3 +303,21 @@ footer a {
     text-decoration: none;
     color: #8987a1;
 }
+.txt-15{
+    height: 34px;
+    border-radius: 5px;
+    background-color: beige;
+    display: block;
+    width: 250px;
+    margin-top: 10px;}
+
+    .txt-16{
+    height: 150px;
+    border-radius: 5px;
+    background-color: beige;
+    display: block;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
