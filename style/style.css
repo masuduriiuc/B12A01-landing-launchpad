@@ -22,6 +22,10 @@ nav {
     padding: 12px 36px 12px 36px;
 }
 
+.uni-btn:hover {
+    background-color: darkcyan;
+}
+
 /* sign-up button in navbar */
 .btn-1 {
     margin: 51.5px 150px 51.5px 150px;
@@ -92,10 +96,8 @@ nav {
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
-    height: 340vh;
+    height: 360vh;
     width: 100%;
-
-
 }
 
 /* See It in Action */
@@ -260,9 +262,44 @@ nav {
     font-size: 97px;
     margin-top: 135px;
 }
-.get2{
+
+.get2 {
     padding: 15px;
-    
+    margin-right: 150px;
+
+}
+
+.txt-15 {
+    height: 45px;
+    border-radius: 10px;
+    background-color: beige;
+    display: block;
+    width:  497px;
+    margin-top: 10px;
+    padding: 20px 32px 20px 32px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.txt-16 {
+    height: 135px;
+    border-radius: 10px;
+    background-color: beige;
+    display: block;
+    width: 497px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 32px 20px 32px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.btn-7 {
+    display: block;
+    width: 365px;
+    text-align: center;
+    font-size: 22px;
+    padding: 19px 101px;
 }
 
 /* footer start  */
@@ -303,25 +340,4 @@ footer {
 footer a {
     text-decoration: none;
     color: #8987a1;
-}
-.txt-15{
-    height: 34px;
-    border-radius: 5px;
-    background-color: beige;
-    display: block;
-    width: 250px;
-    margin-top: 10px;}
-
-    .txt-16{
-    height: 150px;
-    border-radius: 5px;
-    background-color: beige;
-    display: block;
-    width: 250px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.btn-7{
-    display: block;
-    width: 180px;
 }
