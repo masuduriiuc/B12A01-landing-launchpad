@@ -320,10 +320,6 @@ footer {
     font-size: 24px;
 }
 
-
-
-
-
 .btn-5 {
     margin-top: 20px;
     color: #8987a1;
@@ -332,7 +328,13 @@ footer {
     justify-content: space-between;
 
 }
+.btn-9{
+    padding: 12px;
+}
 
+.btn-9:hover{
+    background-color:whitesmoke ;
+}
 .fot-btn {
     margin-left: 40px;
 }
