@@ -113,12 +113,12 @@ nav {
 }
 
 .txt-1 {
-    font-size: 42px;
+    font-size: 48px;
     font-weight: bold;
 }
 
-.actin .txt-2 {
-    font-size: 22px;
+.txt-2 {
+    font-size: 20px;
     font-weight: normal;
     color: darkgray;
 }
@@ -138,6 +138,10 @@ nav {
     border-radius: 48px;
     margin-right: 165px;
     margin-top: 180px;
+}
+
+.img-1:hover{
+    transform: scale(1.2);
 }
 
 /* pg 3 start */
@@ -193,9 +197,18 @@ nav {
 .cnt-5 {
     display: flex;
     justify-content: space-between;
+    margin-right: 40px;
 }
 
-.txt-5 {
+
+.riv-1 {
+    margin: 60px 0px 0px 50px;
+    background-color: #B0C4DE;
+    padding: 26px;
+    border-radius: 14px;
+}
+
+.cnt-7 {
     display: flex;
 }
 
@@ -207,14 +220,25 @@ nav {
     font-family: heading;
 }
 
-.txt-7 {}
-
-.riv-1 {
-    margin: 60px 0px 0px 50px;
-    background-color: #B0C4DE;
-    padding: 26px;
-    border-radius: 10%;
+.txt-7 {
+    font-size:20px ;
+    font-weight: normal;
+    padding: 8px;
 }
+
+.txt-12 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+
+.txt-13 {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 5px;
+}
+
 
 < !-- ready to focus page -->. {
     background-color: #B0C4DE;
@@ -233,6 +257,11 @@ nav {
     width: 840px;
     margin: 20px auto 20px auto;
     border-radius: 48px;
+}
+
+.red-2:hover{
+    transform: scale(1.1);
+    margin-top: 80px;
 }
 
 .txt-8 {
@@ -274,7 +303,7 @@ nav {
     border-radius: 10px;
     background-color: beige;
     display: block;
-    width:  497px;
+    width: 497px;
     margin-top: 10px;
     padding: 20px 32px 20px 32px;
     font-size: 20px;
@@ -328,13 +357,16 @@ footer {
     justify-content: space-between;
 
 }
-.btn-9{
+
+.btn-9 {
     padding: 12px;
 }
 
-.btn-9:hover{
-    background-color:whitesmoke ;
+.btn-9:hover {
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
+
 .fot-btn {
     margin-left: 40px;
 }
